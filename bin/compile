@@ -9,7 +9,7 @@ BUILD_DIR=$1
 ENV_DIR=$3
 VENDOR_DIR="vendor"
 DOWNLOAD_URL_AUDIOWAVEFORM="https://github.com/Mattchewone/heroku-buildpack-audiowaveform/raw/master/audiowaveform.tar.gz"
-DOWNLOAD_URL_LAME="https://github.com/Mattchewone/heroku-buildpack-audiowaveform/raw/master/lame.tar.gz"
+DOWNLOAD_URL_LAME="https://github.com/Mattchewone/heroku-buildpack-audiowaveform/raw/master/lame-3.100.tar.gz"
 
 echo "DOWNLOAD_URL_AUDIOWAVEFORM = " $DOWNLOAD_URL_AUDIOWAVEFORM | indent
 echo "DOWNLOAD_URL_LAME = " $DOWNLOAD_URL_LAME | indent
